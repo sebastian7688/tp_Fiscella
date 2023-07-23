@@ -1,0 +1,8 @@
+C:\xampp\htdocs\ejerFisella\pract24\bin\Debug\pract24.exe.config
+C:\xampp\htdocs\ejerFisella\pract24\bin\Debug\pract24.exe
+C:\xampp\htdocs\ejerFisella\pract24\bin\Debug\pract24.pdb
+C:\xampp\htdocs\ejerFisella\pract24\obj\Debug\pract24.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ejerFisella\pract24\obj\Debug\pract24.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\ejerFisella\pract24\obj\Debug\pract24.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ejerFisella\pract24\obj\Debug\pract24.exe
+C:\xampp\htdocs\ejerFisella\pract24\obj\Debug\pract24.pdb

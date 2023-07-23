@@ -1,0 +1,8 @@
+C:\xampp\htdocs\ejerFisella\pract02\obj\Debug\pract02.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ejerFisella\pract02\obj\Debug\pract02.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\ejerFisella\pract02\obj\Debug\pract02.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ejerFisella\pract02\bin\Debug\pract02.exe.config
+C:\xampp\htdocs\ejerFisella\pract02\bin\Debug\pract02.exe
+C:\xampp\htdocs\ejerFisella\pract02\bin\Debug\pract02.pdb
+C:\xampp\htdocs\ejerFisella\pract02\obj\Debug\pract02.exe
+C:\xampp\htdocs\ejerFisella\pract02\obj\Debug\pract02.pdb

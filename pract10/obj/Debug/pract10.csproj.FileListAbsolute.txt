@@ -1,0 +1,8 @@
+C:\xampp\htdocs\ejerFisella\pract10\bin\Debug\pract10.exe.config
+C:\xampp\htdocs\ejerFisella\pract10\bin\Debug\pract10.exe
+C:\xampp\htdocs\ejerFisella\pract10\bin\Debug\pract10.pdb
+C:\xampp\htdocs\ejerFisella\pract10\obj\Debug\pract10.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ejerFisella\pract10\obj\Debug\pract10.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\ejerFisella\pract10\obj\Debug\pract10.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ejerFisella\pract10\obj\Debug\pract10.exe
+C:\xampp\htdocs\ejerFisella\pract10\obj\Debug\pract10.pdb

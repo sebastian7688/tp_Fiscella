@@ -1,0 +1,8 @@
+C:\xampp\htdocs\ejerFisella\pract59\bin\Debug\pract59.exe.config
+C:\xampp\htdocs\ejerFisella\pract59\bin\Debug\pract59.exe
+C:\xampp\htdocs\ejerFisella\pract59\bin\Debug\pract59.pdb
+C:\xampp\htdocs\ejerFisella\pract59\obj\Debug\pract59.csproj.AssemblyReference.cache
+C:\xampp\htdocs\ejerFisella\pract59\obj\Debug\pract59.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\ejerFisella\pract59\obj\Debug\pract59.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\ejerFisella\pract59\obj\Debug\pract59.exe
+C:\xampp\htdocs\ejerFisella\pract59\obj\Debug\pract59.pdb
