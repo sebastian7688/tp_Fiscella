@@ -6,3 +6,11 @@ C:\xampp\htdocs\ejerFisella\pract01\obj\Debug\pract01.csproj.SuggestedBindingRed
 C:\xampp\htdocs\ejerFisella\pract01\obj\Debug\pract01.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\ejerFisella\pract01\obj\Debug\pract01.exe
 C:\xampp\htdocs\ejerFisella\pract01\obj\Debug\pract01.pdb
+C:\xampp\htdocs\tp_Fiscella\pract01\bin\Debug\pract01.exe.config
+C:\xampp\htdocs\tp_Fiscella\pract01\bin\Debug\pract01.exe
+C:\xampp\htdocs\tp_Fiscella\pract01\bin\Debug\pract01.pdb
+C:\xampp\htdocs\tp_Fiscella\pract01\obj\Debug\pract01.csproj.AssemblyReference.cache
+C:\xampp\htdocs\tp_Fiscella\pract01\obj\Debug\pract01.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\tp_Fiscella\pract01\obj\Debug\pract01.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tp_Fiscella\pract01\obj\Debug\pract01.exe
+C:\xampp\htdocs\tp_Fiscella\pract01\obj\Debug\pract01.pdb

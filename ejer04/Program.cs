@@ -9,7 +9,7 @@ namespace ejer04
 {
     //    Crearemos una superclase llamada Electrodoméstico con las siguientes características:
     //Sus atributos son precio base, color, consumo energético(letras entre A y F) y peso.Indica que se podrán
-    //heredar.
+    //heredar.AS
     //Por defecto, el color será blanco, el consumo energético será F, el precioBase es de 100 € y
     //el peso de 5 kg.Usa constantes para ello.
     //Los colores disponibles son blanco, negro, rojo, azul y gris.No importa si el nombre está
@@ -312,7 +312,7 @@ namespace ejer04
     }
     public class Help
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             Electrodomestico[] e = new Electrodomestico[10];
             e[0] = new Lavadora(300, 500);
@@ -350,4 +350,5 @@ namespace ejer04
         }
     }
 }
+
 
