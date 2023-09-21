@@ -1,0 +1,8 @@
+C:\xampp\htdocs\tp_Fiscella\ejer09\bin\Debug\ejer09.exe.config
+C:\xampp\htdocs\tp_Fiscella\ejer09\bin\Debug\ejer09.exe
+C:\xampp\htdocs\tp_Fiscella\ejer09\bin\Debug\ejer09.pdb
+C:\xampp\htdocs\tp_Fiscella\ejer09\obj\Debug\ejer09.csproj.AssemblyReference.cache
+C:\xampp\htdocs\tp_Fiscella\ejer09\obj\Debug\ejer09.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\tp_Fiscella\ejer09\obj\Debug\ejer09.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tp_Fiscella\ejer09\obj\Debug\ejer09.exe
+C:\xampp\htdocs\tp_Fiscella\ejer09\obj\Debug\ejer09.pdb

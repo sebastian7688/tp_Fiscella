@@ -208,6 +208,7 @@ namespace ejer05
             v[3] = new Videojuegos("Pokemon Esmeralda", 30);
             v[4] = new Videojuegos("Minecraft", 5, "supervivencia y creatividad", "mojan");
             s[3].entregar();
+            s[1].entregar();
             s[0].entregar();
             v[1].entregar();
             v[2].entregar();
@@ -249,6 +250,7 @@ namespace ejer05
             }
             Console.WriteLine("Hay {0} juegos entregados",video_juegos_Entr);
             Console.WriteLine("Hay {0} series entregados", series_entregadas);
+            Console.WriteLine();
             Console.WriteLine("La serie con mas temporadas: ");
             Console.WriteLine("Titulo: "+ serieMasTemporadas.GetTitulo());
             Console.WriteLine("Temporadas: "+ serieMasTemporadas.GetNro_temporadas());
