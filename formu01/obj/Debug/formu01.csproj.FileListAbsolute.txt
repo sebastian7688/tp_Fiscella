@@ -1,0 +1,11 @@
+C:\xampp\htdocs\tp_Fiscella\formu01\bin\Debug\formu01.exe.config
+C:\xampp\htdocs\tp_Fiscella\formu01\bin\Debug\formu01.exe
+C:\xampp\htdocs\tp_Fiscella\formu01\bin\Debug\formu01.pdb
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.csproj.AssemblyReference.cache
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.Form1.resources
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.Properties.Resources.resources
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.csproj.GenerateResource.cache
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.exe
+C:\xampp\htdocs\tp_Fiscella\formu01\obj\Debug\formu01.pdb

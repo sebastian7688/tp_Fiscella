@@ -1,0 +1,11 @@
+C:\xampp\htdocs\tp_Fiscella\pract72\bin\Debug\pract72.exe.config
+C:\xampp\htdocs\tp_Fiscella\pract72\bin\Debug\pract72.exe
+C:\xampp\htdocs\tp_Fiscella\pract72\bin\Debug\pract72.pdb
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.csproj.AssemblyReference.cache
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.Form1.resources
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.Properties.Resources.resources
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.csproj.GenerateResource.cache
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.exe
+C:\xampp\htdocs\tp_Fiscella\pract72\obj\Debug\pract72.pdb
