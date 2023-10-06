@@ -29,9 +29,13 @@ namespace ejer16
 
                 if (int.TryParse(Console.ReadLine(), out opcion))
                 {
+                    Console.Clear();
+
                     switch (opcion)
                     {
+
                         case 1:
+
                             Console.Write("Ingrese el nombre del contacto: ");
                             string nombre = Console.ReadLine();
                             Console.Write("Ingrese el teléfono del contacto: ");
@@ -45,6 +49,8 @@ namespace ejer16
                             {
                                 Console.WriteLine("No se pudo añadir el contacto. Agenda llena o nombre duplicado.");
                             }
+                            Console.Clear();
+
                             break;
 
                         case 2:
@@ -57,12 +63,16 @@ namespace ejer16
                             else
                             {
                                 Console.WriteLine("El contacto no existe en la agenda.");
+
                             }
+                            
+
                             break;
 
                         case 3:
                             Console.WriteLine("Lista de Contactos:");
                             agenda.ListarContactos();
+
                             break;
 
                         case 4:
@@ -76,7 +86,10 @@ namespace ejer16
                             else
                             {
                                 Console.WriteLine("El contacto no fue encontrado.");
+                                
+
                             }
+
                             break;
 
                         case 5:
@@ -91,6 +104,7 @@ namespace ejer16
                             {
                                 Console.WriteLine("El contacto no existe en la agenda.");
                             }
+
                             break;
 
                         case 6:
@@ -102,6 +116,7 @@ namespace ejer16
                             {
                                 Console.WriteLine("La agenda no está llena.");
                             }
+
                             break;
 
                         case 7:
@@ -110,10 +125,14 @@ namespace ejer16
 
                         case 8:
                             Console.WriteLine("Saliendo del programa.");
+                            Console.Clear();
+
                             break;
 
                         default:
                             Console.WriteLine("Opción no válida. Intente nuevamente.");
+                            Console.Clear();
+
                             break;
                     }
                 }
@@ -121,7 +140,10 @@ namespace ejer16
                 {
                     Console.WriteLine("Entrada no válida. Intente nuevamente.");
                 }
-            } while (opcion != 8);
+                
+            }
+            
+            while (opcion != 8);
             Console.ReadKey();  
         }
     }
