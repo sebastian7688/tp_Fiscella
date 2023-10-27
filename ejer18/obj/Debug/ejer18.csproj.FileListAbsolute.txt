@@ -1,0 +1,5 @@
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.AssemblyReference.cache
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.Properties.Resources.resources
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.GenerateResource.cache
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.CoreCompileInputs.cache
