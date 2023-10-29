@@ -1,19 +1,21 @@
-﻿using ejer18;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
-namespace ejer16
+namespace ejer18
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Test test = new Test();
-            test.CargarPreguntas("preguntas.txt");
+            test.CargarPreguntas("preguntas.txt"); 
             test.RealizarTest();
+            Console.ReadKey();
         }
     }
+
 }

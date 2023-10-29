@@ -1,0 +1,23 @@
+;P;¿Cuál es la capital de Buenos Aires?
+La Plata
+CABA
+Bariloche
+Retiro
+;R;1
+10
+
+;P;¿Que tipo de triangulo tiene tresa lados iguales?
+Rentangulo
+Isoceles
+Escaleno
+Equilatero
+;R;4
+15
+
+;P;¿En qué año se fundó Microsoft?
+1978, 1986, 2022
+1982, 1986, 2021
+1974, 1995, 2022
+1978, 1986, 2012
+;R;1
+8

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ejer18
 {
@@ -10,41 +11,59 @@ namespace ejer18
     {
         private List<Pregunta> preguntas;
         private int preguntaActual;
-        private int puntosAcumulados;
-
-        public Test()
-        {
-            preguntas = new List<Pregunta>();
-            preguntaActual = 0;
-            puntosAcumulados = 0;
-        }
 
         public void CargarPreguntas(string fichero)
         {
+            preguntas = new List<Pregunta>();
             string[] lineas = File.ReadAllLines(fichero);
-            for (int i = 0; i < lineas.Length; i++)
+            int i = 0;
+
+            while (i < lineas.Length)
             {
                 if (lineas[i].StartsWith(";P;"))
                 {
-                    Pregunta pregunta = new Pregunta
-                    {
-                        Texto = lineas[i].Substring(3),
-                        Opciones = new List<Opcion>(),
-                        OpcionCorrecta = int.Parse(lineas[i + 5].Substring(3)),
-                        Puntos = int.Parse(lineas[i + 6].Substring(3))
-                    };
+                    Pregunta pregunta = new Pregunta();
+                    pregunta.Enunciado = lineas[i].Substring(3);
+                    pregunta.Opciones = new List<Opcion>();
 
-                    for (int j = 1; j <= 4; j++)
+                    i++;
+
+                    while (!lineas[i].StartsWith(";R;") && !lineas[i].StartsWith(";P;") && i < lineas.Length)
                     {
-                        pregunta.Opciones.Add(new Opcion
+                        if (!string.IsNullOrWhiteSpace(lineas[i]))
                         {
-                            Texto = lineas[i + j],
-                            EsCorrecta = j == pregunta.OpcionCorrecta
-                        });
+                            Opcion opcion = new Opcion();
+                            opcion.Texto = lineas[i];
+                            opcion.EsCorrecta = false;
+                            pregunta.Opciones.Add(opcion);
+                        }
+                        i++;
+                    }
+
+                    if (lineas[i].StartsWith(";R;"))
+                    {
+                        pregunta.OpcionCorrecta = int.Parse(lineas[i].Substring(3)) - 1;
+                        i++;
+                    }
+                    else
+                    {
+                        throw new Exception("Formato de archivo de preguntas incorrecto (falta especificar opción correcta).");
+                    }
+
+                    if (i < lineas.Length && !lineas[i].StartsWith(";P;"))
+                    {
+                        pregunta.Puntos = int.Parse(lineas[i]);
+                    }
+                    else
+                    {
+                        throw new Exception("Formato de archivo de preguntas incorrecto (falta especificar puntos).");
                     }
 
                     preguntas.Add(pregunta);
-                    i += 6;
+                }
+                else
+                {
+                    i++;
                 }
             }
         }
@@ -61,30 +80,40 @@ namespace ejer18
         public void ReiniciarTest()
         {
             preguntaActual = 0;
-            puntosAcumulados = 0;
         }
 
         public void RealizarTest()
         {
+            ReiniciarTest();
             Pregunta pregunta;
+            int puntosAcumulados = 0;
+
             while ((pregunta = SiguientePregunta()) != null)
             {
                 pregunta.MostrarPregunta();
-                Console.Write("Introduce tu respuesta: ");
-                int respuestaUsuario = int.Parse(Console.ReadLine());
+                Console.Write("Ingrese su respuesta: ");
+                int respuestaUsuario;
+                while (!int.TryParse(Console.ReadLine(), out respuestaUsuario) || respuestaUsuario < 1 || respuestaUsuario > pregunta.Opciones.Count)
+                {
+                    Console.WriteLine("Por favor, ingrese una opción válida.");
+                }
 
                 if (pregunta.ComprobarRespuesta(respuestaUsuario))
                 {
-                    Console.WriteLine("Respuesta correcta. ¡Has ganado " + pregunta.Puntos + " puntos!");
+                    Console.WriteLine("¡Respuesta correcta!");
                     puntosAcumulados += pregunta.Puntos;
                 }
                 else
                 {
-                    Console.WriteLine("Respuesta incorrecta. La respuesta correcta era la opción " + pregunta.OpcionCorrecta);
+                    Console.WriteLine($"Respuesta incorrecta. La respuesta correcta era la opción {pregunta.OpcionCorrecta + 1}");
                 }
-            }
 
-            Console.WriteLine("Test completado. Puntos totales: " + puntosAcumulados);
+                Console.WriteLine($"Opción correcta: {pregunta.OpcionCorrecta + 1}");
+                Console.WriteLine($"Respuesta del usuario: {respuestaUsuario}");
+                Console.WriteLine($"¿Es correcta? {pregunta.ComprobarRespuesta(respuestaUsuario)}");
+
+                Console.WriteLine($"Puntos acumulados: {puntosAcumulados}\n");
+            }
         }
     }
 }

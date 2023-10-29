@@ -3,3 +3,8 @@ C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.SuggestedBindingRedir
 C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.Properties.Resources.resources
 C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.GenerateResource.cache
 C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tp_Fiscella\ejer18\bin\Debug\ejer18.exe.config
+C:\xampp\htdocs\tp_Fiscella\ejer18\bin\Debug\ejer18.exe
+C:\xampp\htdocs\tp_Fiscella\ejer18\bin\Debug\ejer18.pdb
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.exe
+C:\xampp\htdocs\tp_Fiscella\ejer18\obj\Debug\ejer18.pdb
