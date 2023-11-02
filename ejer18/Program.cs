@@ -9,7 +9,7 @@ namespace ejer18
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Test test = new Test();
             test.CargarPreguntas("preguntas.txt"); 
